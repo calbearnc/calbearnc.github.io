@@ -24,6 +24,7 @@ body {
 .experience-header {
   text-align: center;
   text-transform: uppercase;
+  color: red;
   border-top: 1px dotted #ddd;
   border-bottom: 1px dotted #ddd;
 }
@@ -39,6 +40,7 @@ body {
 .education-header {
   text-align: center;
   text-transform: uppercase;
+  color: red;
   border-top: 1px dotted #ddd;
   border-bottom: 1px dotted #ddd;
 }
