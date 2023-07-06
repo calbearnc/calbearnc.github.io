@@ -5,14 +5,25 @@ body {
   margin: 10% 15%;
 }
 
-.summary-header {
+.CSSgrid{
+  display:grid;
+  grid-template-columns: 40% 30% 30%
+}
+
+.CSSgrid > div{
   text-align: center;
   text-transform: uppercase;
-  background-color: rgba(1,0.5,1)
+  padding:1em;
+}
+
+.CSSgrid > div:nth-child(odd){
+  background:#ddd;
+  color: black;
 }
 
 .summary{
   text-align: justify;
+  padding:1em;
 }
 
 .tagline-header {
@@ -59,4 +70,12 @@ body {
 
 .ARIZONA {
   text-align: center;
+}
+
+.JWST {
+  text-align: center;
+}
+
+.link {
+  background-color: white;
 }
