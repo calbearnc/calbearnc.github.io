@@ -1,85 +1,60 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Cali Knowlden Resume</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div>
-    <h1>Cali Knowlden</h1>
-  <div>
-    
-<div class="summary-header">
-    <h4>Veteran | Operations and Threat Management | 
-Global Leadership | Project Life Cycle Process | Strategic Security Leadership | Business Strategy / Policy / Law / Ethics</h4>
-</div>
+body {
+  background-color: #234;
+  color: #eee;
+  font-family: Palatino, URW Palladio L, serif; 
+  margin: 10% 15%;
+}
 
-<div class="summary"
-  <p>Fourteen years proven experience managing development, implementation, validation, and deployment of all aspects of cyber security, radio frequency engineering, and information technology infrastructure projects.  Strong leader effective at transforming operational ideas and “big picture” concepts into workable solutions and applying extensive technical expertise to deliver results.  Proficient in operating across large scale cross-organizational projects and thrives in high stress, demanding environments.  Experienced in performing high-level development and in-situ system evaluation of leading-edge technologies and applications.  Skilled at creating strategic plans and technical reports and comfortable briefing at all levels of military and corporate environments. Earned reputation as a perceptive and practical troubleshooter with unique ability to solve large-scale problems.  Able to operate independently to lead and drive technical execution to meet program goals. 
-</div>
+.summary-header {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(1,0.5,1)
+}
 
-<div class="tagline-header">
-  <h5>Merging strategic technical experience with insightful ability to understand big picture</h5>
-</div>
-    
-  <div class="experience-header">
-    <h3>Professional Experience</h3>
-  </div>
-  
-    <div>
-      <h4>Mayvin Consulting</h4>
-      <h5>Systems Integration and Test Engineer</h5>
-      <h6>2017 – Present</h6>
-      <div class="Mayvin"
-           <p>Subject Matter Expert and Field Service Representative. Performs research and development; technical planning; system integration, mechanical engineering, verification and validation; algorithm development; cost and risk comparisons; performance analysis; technical report creation and presentation; interactive training; and supportability and effectiveness analyses for Information Technology, Radio Frequency, and other electromagnetic systems. Analyses performed at all levels of system stack and include: concept, design, fabrication, test, installation, operation, maintenance and disposal. Writes systems-level specifications, requirements, and architecture documents. Ensures logical and systematic conversion of customer requirements into total systems solutions that achieve technical, schedule, and cost objectives. Performs laboratory and field functional and timeline analyses, detailed trade-off studies, requirements allocation and interface definition studies to translate customer requirements into hardware and software specifications and deliverables.
-      </div>
-      <ul>
-        <li>Authors technical documents and drives various engineering teams to meet customer’s operational hardware and software requirements.  Drives technical meetings to define and analyze engineering metrics for product performance and optimization.</li>
-        <li>Drove research and development team in providing successful delivery and acceptance of 15 separate program prototypes, totaling $8MM in equipment.  Sole responsible engineer for developing test plans for government acceptance tests.</li>
-        <li>Designed, developed, and tested prototype of a small aerial platform payload.  Completed payload integration, including power and wiring, for a highly successful test flight within 11 days, saving the customer $240K in research and development funding.</li>
-      </ul>
-    </div>
-    
-    <div>
-      <h4>United States Air Force</h4>
-      <h5>Systems Integrator/Project Manager</h5>
-      <h6>2009 - 2017</h6>
-      <div class="USAF-Summary"
-           <p>Synchronized operational requirements with systems engineering knowledge and developed and implemented Wide Area Networks (WAN) security policies and architecture. Integrated and translated complex concepts into solid action plans.  Designed and maintained line of sight and satellite communications infrastructures.
-      </div>
-      <ul>
-        <li>Led communications bed down for $22MM per year aircraft contract in support of combat operations and engineered data communications links with seamless amalgamation into existing avionics infrastructure. Experience with and practical understanding of communications theory and RF link budgeting.</li>
-        <li>Technical lead for software defined radio, metadata and video integration for various platforms involving testing, calibration and maintenance support.  Experience in designing, maintaining, and troubleshooting RF systems, multicast FMV, High-Definition encoders, encryptors, and radio over IP (RoIP)</li>
-        <li>Supported Joint Chiefs of Staff and contingency operations worldwide, to include emergency response and humanitarian efforts at bare-base locations.  Led multiple emergency response exercises to provide reliable communications during industry IT blackouts.</li>
-      </ul>
-     </div>   
-   
-    <div class="education-header">
-    <h3>Education and Certifications</h3>
-    </div>
-    
-    <div class="DASSAULT">
-      <h5>DASSAULT SYSTEMES SOLIDWORKS - 2021</h5>
-      <h6>Certified SOLIDWORKS Associate (CSWA) – Mechanical Design</h6>
-    </div>
-    
-    <div class="SCRUM">
-      <h5>SCRUM ALLIANCE - 2021</h5>
-      <h6>(CSPO) Certified Scrum Product Owner</h6>
-    </div>
-    
-    <div class="COLORADO">
-      <h5>COLORADO TECHNICAL UNIVERSITY - 2013</h5>
-      <h6>Master of Business Administration - Technology Management</h6>
-    </div>
-    
-    <div class="ARIZONA">
-      <h5>UNIVERSITY OF ARIZONA - 2009</h5>
-      <h6>Bachelor of Science - Engineering Management/Minor in Mechanical Engineering</h6>
-    </div>
- 
-    
-    </body>
-</html>
+.summary{
+  text-align: justify;
+}
+
+.tagline-header {
+  text-align: center;
+  text-transform:uppercase;
+  background-color: rgba(1,1,0.5)
+}
+
+.experience-header {
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+}
+
+.Mayvin {
+  text-align: justify;
+}
+
+.USAF-Summary {
+  text-align: justify;
+}
+
+.education-header {
+  text-align: center;
+  text-transform: uppercase;
+  border-top: 1px dotted #ddd;
+  border-bottom: 1px dotted #ddd;
+}
+
+.DASSAULT {
+  text-align: center;
+}
+
+.SCRUM {
+  text-align: center;
+}
+
+.COLORADO {
+  text-align: center;
+}
+
+.ARIZONA {
+  text-align: center;
+}
